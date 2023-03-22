@@ -25,6 +25,7 @@ code {
 
 .center_div{
   width: 25%;
+  
   height: fit-content;
   background-color: aliceblue;
   box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
@@ -88,9 +89,6 @@ ol li{
   text-transform: capitalize;
 }
 
-.crossed-line {
-  text-decoration: line-through;
-}
 
 .todo_style{
   display: flex;
@@ -120,9 +118,17 @@ ol li{
   color: crimson;
 }
 
+.footer{
+  position: absolute;
+  bottom: 0px;
+  color: #3f27c8;
+}
+
+
 @media (max-width:768px){
   .center_div{
     width: 55%;
+    
   }
   .todo_style .fa-times{
     margin: 0 15px 0 15px;

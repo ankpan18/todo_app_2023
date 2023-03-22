@@ -51,10 +51,13 @@ const App=()=>{
         
       </ol>
     </div>
-    <h2 style={{    position: "absolute",
+
+    {/* <h2 style={{    position: "absolute",
     bottom: "0px",
     color: "#3f27c8"
-}}>Made By Ankur Panthri</h2>
+}}>Made By Ankur Panthri</h2> */}
+
+{/* <Footer/> */}
 </div>
 )
 
