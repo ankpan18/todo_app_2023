@@ -11,13 +11,17 @@ const App=()=>{
   };
 
 
-
   const listOfItems=()=>{
+    if(inputList.length>0)
+    {
       setItems((oldItems)=>{
         return [...oldItems,inputList];
       })
       setInputList("");
-  };
+  }
+  else{
+    alert("Blank input");
+  }};
 
   const deleteItems=(id)=>{
     
